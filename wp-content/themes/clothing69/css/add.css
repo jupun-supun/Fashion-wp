@@ -1,0 +1,30 @@
+.style_text > *,
+.post_item_404 .page_title,
+.post_item_none_search .page_title,
+.post_item_none_archive .page_title,
+h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag),
+.trx_addons_dropcap.trx_addons_dropcap_style_1,
+.sc_layouts_title_caption{
+    color: transparent !important;
+    background: url("../images/bg_font.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+}
+.style_slider_text {
+    color: transparent !important;
+    background: url("../images/bg_font.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+}
+
+.ua_ie .style_text > *,
+.ua_ie .post_item_404 .page_title,
+.ua_ie .post_item_none_search .page_title,
+.ua_ie .post_item_none_archive .page_title,
+.ua_ie h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag),
+.ua_ie .trx_addons_dropcap.trx_addons_dropcap_style_1,
+.ua_ie .sc_layouts_title_caption,
+.ua_ie .style_slider_text{
+    background:  none;
+}

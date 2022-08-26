@@ -1,0 +1,70 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+.esg-grid i[class*="eg-icon-"] {
+	color: #fff;
+}
+.esg-grid a:hover i[class*="eg-icon-"] {
+	color: #000;
+}
+
+.esg-navigationbutton i[class*="eg-icon-"] {
+	color: #888;
+}
+.esg-navigationbutton:hover i[class*="eg-icon-"] {
+	color: #333;
+}
+
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+
+
+.esg-grid .mainul li.eg-collections-wrapper .esg-media-poster:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top:0;
+    background: rgba(235, 233, 230, 0.7);
+    opacity: 0;
+    -webkit-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+.esg-grid .mainul li.eg-collections-wrapper .esg-media-poster:hover:before {
+    opacity: 1;
+}
+
+
+
+
+
+.minimal-light .esg-filterbutton, .minimal-light .esg-navigationbutton, .minimal-light .esg-sortbutton, .minimal-light .esg-cartbutton a {
+    min-height: inherit !important;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 12px 17px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    color: #ebe8e1 !important;
+    border: 13px solid #ebe9e6 !important;
+    background: #2c292c !important;
+        -webkit-border-radius: 0 !important;
+            -ms-border-radius: 0 !important;
+                border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+        -ms-box-shadow: none !important;
+            box-shadow: none !important;
+    text-transform: uppercase !important;
+}
